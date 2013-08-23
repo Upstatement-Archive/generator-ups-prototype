@@ -1,0 +1,12 @@
+{
+  "name": "upstatement-<%= _.slugify(projectName) %>",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+	"jquery": "latest",
+	"modernizr": "latest",
+	"lodash": "latest",
+	<% if(needsOldIESupport) { %>"respondjs": "https://github.com/scottjehl/Respond.git",<% } %>
+	"ups-sass-patterns": "git@github.com:Upstatement/ups-sass-patterns.git"
+  }
+}

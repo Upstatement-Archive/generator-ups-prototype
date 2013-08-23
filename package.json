@@ -1,0 +1,42 @@
+{
+  "name": "generator-ups-prototype",
+  "version": "0.0.1",
+  "description": "A generator for static prototyping at Upstatement",
+  "private": true,
+  "keywords": [
+    "generator-ups-prototype"
+  ],
+  "homepage": "https://github.com/Upstatement/generator-ups-prototype",
+  "bugs": "https://github.com/Upstatement/generator-ups-prototype/issues",
+  "author": {
+    "name": "Pete Karl II",
+    "email": "pete.karl@gmail.com",
+    "url": "https://github.com/Upstatement"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Upstatement/generator-ups-prototype.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
