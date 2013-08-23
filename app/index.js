@@ -28,7 +28,7 @@ UpsPrototypeGenerator.prototype.askFor = function askFor() {
   },{
     type: 'confirm',
     name: 'usesTypekit',
-    message: 'Will you be using Tyepkit?',
+    message: 'Will you be using Typekit?',
     default: false
   },{
     type: 'confirm',
