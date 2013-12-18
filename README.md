@@ -15,6 +15,6 @@ Now you should be all set to use it!
 
 * create a new directory (like in `~/Sandbox/testing-prototype`)
 * `cd` in to the `testing-prototype` dir
-* run `yo prototype`
+* run `yo ups-prototype`
 
 Voila! It should ask you a few questions about your prototype, and before you know it, you'll have a nice boilerplate project complete with SASS stuff and a starter JS module.
